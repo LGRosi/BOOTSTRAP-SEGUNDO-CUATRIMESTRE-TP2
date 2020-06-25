@@ -1,0 +1,144 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.fondobody {
+    background: #ececec;
+}
+
+
+.fondoheader, .fondofooter {
+    background: #551d74;
+}
+
+
+.logo {
+    width: 160px;
+    height: 90px;
+    background: url("../imagenes/logo.svg") center center no-repeat;
+    font-size: 0;
+    position: absolute;
+    top: -12px;
+    left: 40px;
+    z-index: 1;
+}
+
+header {
+    max-width: 100%;
+    position: relative;
+    height: auto;
+}
+
+.h20 {
+    display: none;
+}
+
+.carousel-indicators li {
+    width: 25px;
+    height: 15px;
+    border-radius: 100%;
+    background: white;
+    border: 0;
+}
+
+.carousel-indicators .active {
+    background: rgb(131, 25, 163) ;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 60px;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+}
+
+.sectionredondiado {
+    border-radius: 20px;
+}
+
+
+figure {
+    max-width: 100%;
+    margin: auto;
+}
+
+
+figure {
+    max-width: 100%;
+}
+
+
+.imgradius {
+    border-radius: 40px;
+}
+
+.videoradius {
+    border-radius: 30px;
+}
+
+.section2 {
+    background:#f7f7f7;
+}
+
+.textcolor {
+    color: rgb(172, 29, 216);
+}
+
+.ulredes {
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+}
+
+.redes {
+    width: 30px;
+    height: 30px;
+}
+
+.logofooter {
+    width: 200px;
+    height: 200px;
+    background: url("../imagenes/logofooter.svg") center center no-repeat;
+    font-size: 0;
+    margin: auto;
+}
+
+.datos {
+    list-style: none;
+    font-size: 18px;
+}
+
+textarea {
+    resize: none;
+}
+
+.copy {
+    text-align: center;
+    line-height: 30px;
+    background: #1c1c1c;
+}
+
+.text {
+    font-size: 25px;
+}
+
+.form {
+    border-radius: 20px;
+}
+
+.colorbotonfooter {
+    background: purple;
+    color: white;
+    font-size: 20px;
+}
+
+.form2 {
+    border-radius: 15px;
+}
+
+.colorletras {
+    color: rgb(233, 231, 231);
+}
+

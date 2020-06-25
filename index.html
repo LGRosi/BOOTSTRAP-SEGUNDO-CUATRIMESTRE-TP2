@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="icon" href="imagenes/nota.png" />
+        <title>Rosi, Lucas Gonzalo | dwtn2a | 2020</title>
+    </head>
+
+
+    <body class="fondobody">
+
+        <header class="container-fluid h-100">
+            <h1 class="logo">Música indie rock</h1>
+                <div class="row">
+                    <nav class="col px-md-5 navbar navbar-expand-md navbar-dark fondoheader">
+                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#barra" aria-controls="barra" aria-expanded="false" aria-label="Menú Hamburguesa">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="barra">
+                            <ul class="navbar-nav text-center ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#eventos">EVENTOS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#recitales">RECITALES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#bandas">BANDAS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#info">INFO</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+        </header>
+
+
+    
+            
+        <section id="galeria" class="container-fluid carousel slide" data-ride="carousel" data-interval = "4000">
+                <h2 class="h20">Banner música rock alternativo</h2>
+                <div class="row">
+
+                    <ol class="carousel-indicators pb-4">
+                        <li data-target="#galeria" data-slide-to="0" class="active"></li>
+                        <li data-target="#galeria" data-slide-to="1"></li>
+                        <li data-target="#galeria" data-slide-to="2"></li>
+                        <li data-target="#galeria" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <figure class="carousel-item active">
+                            <picture>
+                                <source media="(max-width: 599px)" srcset="imagenes/slider1_celular.jpg">
+                                <source media="(max-width: 800px)" srcset="imagenes/slider1_tablet.jpg">    
+                                <img class="d-block w-100" src="imagenes/slider1_pc.jpg" alt="música" />
+                            </picture>
+                            <div class="carousel-caption d-none d-md-block pt-2">
+                                <h2>Festival Lollapalooza</h2>
+                                <p>3 días, 5 escenarios y más de 100 bandas de todo el mundo. Los mejores shows en vivo.</p>
+                            </div>
+                        </figure>
+                        <figure class="carousel-item">
+                            <picture>
+                                <source media="(max-width: 599px)" srcset="imagenes/slider2_celular.jpg">
+                                <source media="(max-width: 800px)" srcset="imagenes/slider2_tablet.jpg"> 
+                                <img class="d-block w-100" src="imagenes/slider2_pc.jpg" alt="música" />
+                            </picture>
+                            <div class="carousel-caption d-none d-md-block pt-2">
+                                <h2>Artístas internacionales</h2>
+                                <p>Los mejores artístas con la más amplia trayectoria, todos los años tu evento favorito.</p>
+                            </div>
+                        </figure>
+                        <figure class="carousel-item">
+                            <picture>
+                                <source media="(max-width: 599px)" srcset="imagenes/slider3_celular.jpg">
+                                <source media="(max-width: 800px)" srcset="imagenes/slider3_tablet.jpg"> 
+                                <img class="d-block w-100" src="imagenes/slider3_pc.jpg" alt="música" />
+                            </picture>
+                            <div class="carousel-caption d-none d-md-block pt-2">
+                                <h2>Eventos musicales</h2>
+                                <p>Evento social que suele aglutinar una gran cantidad de conciertos de música durante varios días.</p>
+                            </div>
+                        </figure>
+                        <figure class="carousel-item">
+                            <picture>
+                                <source media="(max-width: 599px)" srcset="imagenes/slider4_celular.jpg">
+                                <source media="(max-width: 800px)" srcset="imagenes/slider4_tablet.jpg"> 
+                                <img class="d-block w-100" src="imagenes/slider4_pc.jpg" alt="música" />
+                            </picture>
+                            <div class="carousel-caption d-none d-md-block pt-2">
+                                <h2>Rock alternativo</h2>
+                                <p>Rock alternativo con sus mejores artístas contemporanios, todo el rock en un mismo evento.</p>
+                            </div>
+                        </figure>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#galeria" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+
+                    <a class="carousel-control-next" href="#galeria" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+        </section>
+
+
+
+        <section class="container section2 mt-5 px-4 sectionredondiado">
+            <div class="row">
+                <article class="col-11 m-auto col-md" id="bandas">
+                    <figure>
+                        <picture>
+                            <source media="(max-width: 599px)" srcset="imagenes/theblackkeys_celular.jpg">
+                            <source media="(max-width: 800px)" srcset="imagenes/theblackkeys_tablet.jpg">    
+                            <img src="imagenes/theblackkeys_pc.jpg" alt="The Black Keys" class="img-fluid imgradius mt-4 w-100"  />
+                        </picture>
+                    </figure>
+                    <h2 class="mx-2 mt-3 mb-3">The Black Keys</h2>
+                    <p class="w-75 mx-2">El dúo comenzó de forma independiente, grabando <strong>música</strong> en sótanos y
+                        produciendo sus propios álbumes.</p>
+                        <a href="#" class="btn btn-light my-1 pt-1 mb-3 textcolor">Más info...</a>
+                </article>
+                <article class="col-11 m-auto col-md">
+                    <figure>
+                        <picture>
+                            <source media="(max-width: 599px)" srcset="imagenes/Arcticmonkeys_celular.jpg">
+                            <source media="(max-width: 800px)" srcset="imagenes/Arcticmonkeys_tablet.jpg">    
+                            <img src="imagenes/Arcticmonkeys_pc.jpg" alt="Arctic Monkeys" class="img-fluid imgradius mt-4 w-100" />
+                        </picture>
+                    </figure>
+                    <h2 class="mx-2 mt-3 mb-3">Arctic Monkeys</h2>
+                    <p class="w-75 mx-2"><em>Arctic Monkeys</em>, es una <strong>banda británica de rock</strong>, formada en
+                        Sheffield, Reino Unido.​</p>
+                        <a href="#" class="btn btn-light my-1 pt-1 mb-3 textcolor">Más info...</a>
+                </article>
+
+                <div class="w-100 d-none d-md-block"></div>
+
+                <article class="col-11 m-auto col-md">
+                    <figure>
+                        <picture>
+                            <source media="(max-width: 599px)" srcset="imagenes/thestrokes_celular.jpg">
+                            <source media="(max-width: 800px)" srcset="imagenes/thestrokes_tablet.jpg">    
+                            <img src="imagenes/thestrokes_pc.jpg" alt="The Strokes" class="img-fluid imgradius mt-4 w-100" />
+                        </picture>
+                    </figure>
+                    <h2 class="mx-2 mt-3 mb-3">The Strokes</h2>
+                    <p class="w-75 mx-2"><strong>The Strokes es una banda de rock</strong> originaria de Nueva York Estados
+                        Unidos formada en 1998.</p>
+                        <a href="#" class="btn btn-light my-1 pt-1 mb-5 textcolor">Más info...</a>
+                </article>
+                <article class="col-11 m-auto col-md">
+                    <figure>
+                        <picture>
+                            <source media="(max-width: 599px)" srcset="imagenes/RHCP_celular.jpg">
+                            <source media="(max-width: 800px)" srcset="imagenes/RHCP_tablet.jpg">    
+                            <img src="imagenes/RHCP_pc.jpg" alt="Red Hot Chili Peppers" class="img-fluid imgradius mt-4 w-100" />
+                        </picture>
+                    </figure>
+                    <h2 class="mx-2 mt-3 mb-3">Red Hot Chili Peppers</h2>
+                    <p class="w-75 mx-2">El estilo musical de los <em>RHCP</em> fusiona el funk tradicional con el rock y el 
+                        <strong>rock alternativo</strong>.</p>
+                        <a href="#" class="btn btn-light my-1 pt-1 mb-5 textcolor">Más info...</a>
+                </article>
+            </div>
+        </section>
+ 
+               
+        
+
+       
+
+        <main class="container section2 my-4 px-4 sectionredondiado" id="recitales">
+            <section class="row">
+                <article class="col-lg-6 mt-2 mb-lg-5">
+                    <h2 class="my-4 font-weight-bold">Recitales</h2>
+                    <figure class="embed-responsive embed-responsive-16by9 bg-dark videoradius">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/yliJr9E0UYc"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </figure>
+                </article>
+                <div class="col-lg-6 mt-lg-5">
+                    <h3 class="ml-2 my-4 pt-4">Festival Lollapalooza</h3>
+                    <p class="ml-2 w-lg-75">
+                        <strong>Es un festival musical de los Estados Unidos que originalmente
+                        ofrecía bandas de rock alternativo, indie y punk rock</strong>; también hay
+                        actuaciones cómicas y de danza. Concebido en 1991 por Perry
+                        Farrell, cantante de Jane's Addiction, Lollapalooza se realizó
+                        anualmente hasta 1997 y fue revivido en 2003. El festival
+                        encapsula la cultura joven de los años 1990. 
+                        <strong>La primera aparición oficial de Lollapalooza fuera de Estados
+                            Unidos fue en 2011 en Santiago, Chile.</strong>
+                    </p>
+                    <a href="#" class="btn btn-light my-1 pt-1 mb-5 textcolor">Más info...</a>
+                </div>
+            </section>
+        </main>
+
+
+
+        <section class="container section2 my-4 px-4 sectionredondiado" id="eventos">
+            <div class="row d-flex flex-wrap-reverse">
+                <article class="col-lg-6 mt-2">
+                    <h2 class="my-4 ml-4 font-weight-bold">Eventos musicales</h2>
+                    <div class="col-lg">
+                        <p class="ml-2 w-lg-100">
+                            Presenciar el concierto de la banda de tus sueños es algo inolvidable.
+                            Generalmente en esta época los recitales y shows se incrementan.
+                            Músicos nacionales e internacionales hacen furor desde los escenarios con el solo
+                            objetivo de entretener al público presente. <strong>Te proponemos dar un paso más y dejar de
+                            ser público para convertirte en organizador.</strong> Organizar eventos musicales quizás te lleve
+                            más tiempo que otros pero no es algo imposible.
+                        </p>
+                        <a href="#" class="btn btn-light my-1 pt-1 mb-5 textcolor">Más info...</a>
+                    </div>
+                </article>
+
+                <article class="col-lg-6 mt-5 mb-lg-5 ">
+                    <h2 class="h20">Evento musical</h2>
+                    <figure>
+                        <picture>
+                            <source media="(max-width: 599px)" srcset="imagenes/eventomusical_celular.jpg">
+                            <source media="(max-width: 800px)" srcset="imagenes/eventomusical_tablet.jpg">    
+                            <img src="imagenes/eventomusical_pc.jpg" alt="Evento musical" class="img-fluid imgradius mt-4 w-100"  />
+                        </picture>
+                    </figure>
+                </article>
+            </div>
+        </section>
+    
+
+
+        
+
+        <footer class="container-fluid fondofooter text-white h-100">
+            <div class="row d-flex justify-content-around align-items-center">
+
+                <form class="col-sm-10 col-md-8 col-lg-4 mt-3 mb-3 pl-lg-5 colorletras" action="enviarformulario.php" method="POST">
+
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control form2" id="nombre" placeholder="Nombre..." required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" class="form-control form2" id="apellido" placeholder="Apellido..." required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mail">Email</label>
+                        <input type="email" class="form-control form2" id="mail" placeholder="ejemplo@email.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="comentario">Mensaje</label>
+                        <textarea id="comentario" class="form-control form" cols="40" rows="3" placeholder="Déjanos tu comentario" required></textarea>
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Enviar" class="form2 col-12 col-md-5 colorbotonfooter"  data-toggle="modal" data-target="#alert">
+                    </div>
+            
+                </form>
+                <div class="col-lg-8 pl-sm-5">
+                    <div class="row d-flex justify-content-center align-items-center">
+
+                        <div class="col-11 col-sm-6 col-md-5 col-lg-6 pb-lg-4">
+                            <p class="text pb-3">Información adicional de Musindi:</p>
+                            <p class="datos colorletras">Somos una empresa con 30 años de trayectoria. Nos orientamos a los apacionados de la música indie rock.</p>
+                            <p class="logofooter ml-sm-4 pl-md-1 mb-5 mb-sm-1">Musindi</p>
+                        </div>
+
+                        <div class=" col-11 col-sm-6 col-md-5 col-lg-6 pb-5 mt-5 mt-sm-1">
+                            <ul class="datos">
+                                <li class="text pb-4">Datos del Alumno:</li>
+                                <li class="pb-3 colorletras">Alumno: Rosi, Lucas Gonzalo</li>
+                                <li class="pb-3 colorletras">Materia: Interacción con dispositivos móviles.</li>
+                                <li class="pb-3 colorletras">Turno: Noche</li>
+                                <li class="pb-3 colorletras">Comisión: dwtn2a</li>
+                                <li class="pb-3 colorletras">Año: 2020</li>
+                            </ul>
+                            <ul class="ulredes d-flex flex-wrap flex-sm-nowrap">
+                                <li class="my-1 px-3 px-sm-2"><a href="https://es-la.facebook.com/" target="_blank"><img class="redes" src="imagenes/facebook.svg" alt="facebook"></a></li>
+                                <li class="my-1 px-3 px-sm-2"><a href="https://twitter.com/login?lang=es" target="_blank"><img class="redes" src="imagenes/twitter.svg" alt="twitter"></a></li>
+                                <li class="my-1 px-3 px-sm-2"><a href="https://web.whatsapp.com/" target="_blank"><img class="redes" src="imagenes/whatsapp.svg" alt="whatsapp"></a></li>
+                                <li class="my-1 px-3 px-sm-2"><a href="https://www.youtube.com/" target="_blank"><img class="redes" src="imagenes/youtube.svg" alt="youtube"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="copy w-100 pt-2 colorletras" id="info">
+                    <p class="mx-5">© copyright 2020 Todos los Derechos Reservados | Musindi</p>
+                </div>
+
+            </div> 
+
+        </footer>
+
+
+        
+        <script src="js/jquery-3.5.1.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+        
+        <script>
+            $('.nav-item').on('click', function() {
+                $(".navbar-collapse").collapse("hide");
+            })
+        </script>
+
+
+        <script>
+            document.createElement("picture");
+        </script>
+        <script src="js/picturefill.js"></script>
+
+        <script>
+            $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+            })
+        </script>
+
+    </body>
+</html>
+
+
+
+
+
+
+
